@@ -1,0 +1,44 @@
+{
+	"name": "genoset-122",
+	"version": "0.0.0",
+	"description": "Determines if a genome has an increased risk of baldness (gs122).",
+	"homepage": "https://mths.be/gs122",
+	"main": "index.js",
+	"keywords": [
+		"bald",
+		"baldness",
+		"dna",
+		"genes",
+		"genetics",
+		"genome",
+		"genoset",
+		"gs122"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Mathias Bynens",
+		"url": "https://mathiasbynens.be/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathiasbynens/genoset-122.git"
+	},
+	"bugs": "https://github.com/mathiasbynens/genoset-122/issues",
+	"files": [
+		"LICENSE-MIT.txt",
+		"index.js"
+	],
+	"scripts": {
+		"test": "mocha tests"
+	},
+	"dependencies": {
+		"genoset-male": "^1.0.0",
+		"gql": "^1.1.0"
+	},
+	"devDependencies": {
+		"coveralls": "^2.11.2",
+		"istanbul": "^0.3.11",
+		"mocha": "^2.2.5",
+		"should": "^6.0.1"
+	}
+}

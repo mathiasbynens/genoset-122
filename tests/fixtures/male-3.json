@@ -1,0 +1,19 @@
+{
+	"rs2032651": {
+		"chromosome": "Y",
+		"genotype": "D"
+	},
+	"rs9341296": {
+		"chromosome": "Y",
+		"genotype": "C"
+	},
+
+	"rs6625163": {
+		"chromosome": "X",
+		"genotype": "AT"
+	},
+	"rs1160312": {
+		"chromosome": 20,
+		"genotype": "AA"
+	}
+}

@@ -1,0 +1,7 @@
+sudo: false
+language: node_js
+node_js:
+  - '0.12'
+  - 'iojs'
+after_script:
+  - 'istanbul cover --verbose --dir coverage node_modules/.bin/_mocha tests/index.js -- -u exports -R spec && cat coverage/lcov.info | coveralls; rm -rf coverage/lcov*'
