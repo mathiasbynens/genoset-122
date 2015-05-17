@@ -1,6 +1,6 @@
 {
 	"name": "genoset-122",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Determines if a genome has an increased risk of baldness (gs122).",
 	"homepage": "https://mths.be/gs122",
 	"main": "index.js",
